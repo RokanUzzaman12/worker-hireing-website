@@ -54,7 +54,10 @@
                                     $delete_ser_query_result = mysqli_query($con,$delete_ser_query);
                                 }
                             ?>
-                            <table class = "table table-bordered table-hover">
+                           
+                                <div class="my_table">
+                                
+                                <table class = "table table-bordered table-hover">
                                 <tr>
                                     <th>Member Name</th>
                                     <th>Member Email</th>
@@ -96,6 +99,8 @@
                                 <?php }?>
 
                             </table>
+                                </div>
+
                         </div>
                     </div>
                 </div>
